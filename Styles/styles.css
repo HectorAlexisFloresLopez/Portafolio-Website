@@ -93,7 +93,7 @@ section{
     transform: translateY(0) scale(1);
 }
 
-/*Controls*/
+/*Controls este será el cambio*/
 .controlls{
     position: fixed;
     z-index: 10;
