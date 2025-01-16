@@ -98,6 +98,7 @@ section{
 }
 
 .active{
+    /*existe un error hay que abrir otra barra en @keyframes*/
     display: block;
     animation: scaleAnim 1s ease-in-out;  
     @keyframes scaleAnim {
