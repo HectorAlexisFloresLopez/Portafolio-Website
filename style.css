@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -210,5 +214,46 @@ section{
     background-color: rgb(219, 219, 219);
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(to right, #009dff, #ff00ff);
+    background: linear-gradient(to bottom, #009dff, #ff00ff);
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+}
+.project-card{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.project-card:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-10px)scale(1.02);
+}
+.project-card img{
+    width: 20vw;
+    border-radius: 1rem;
+}
+.project-card:hover .btn{
+    border: 2px solid white;
+    color: white;
+}
+.project-card:hover .btn:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+.project-card h3{
+    font-size: 2rem;
+    font-weight: 500;
 }
