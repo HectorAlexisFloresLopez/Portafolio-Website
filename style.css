@@ -288,6 +288,13 @@ section{
     transform: translate(50%, -50%);
 }
 
+.input-box textarea{
+    border-radius: 3rem;
+    border: 2px solid black;
+    padding: 2rem 8rem;
+    font-size: 3rem;
+}
+
 
 footer{
     bottom: 0;

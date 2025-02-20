@@ -137,17 +137,19 @@
     </section>
 
     <section class="contact" id="contact">
-        <div class="input-box">
-            <h2 class="section-title">Contact Me</h2>
-            <div class="input">
-                <input type="text" placeholder="example@email.com">
-                <i class="fa-solid fa-envelope"></i>
+        <form class="contact" id="contactForm">
+            <div class="input-box">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="input">
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                
+                <textarea type="text" id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+                
+                <button type="submit" class="btn">Submit</button>
             </div>
-
-            <div class="btn">Submit</div>
-
-        </div>
-
+        </form>
     </section>
 
     <footer>
